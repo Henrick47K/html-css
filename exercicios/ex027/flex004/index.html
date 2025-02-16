@@ -6,17 +6,18 @@
     <title>Flex box</title>
     <style>
         div.container {
-            display: flex;
-
             background-color: lightsalmon;
-            flex-direction: row;
+            height: 300px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: flex-start;
         }
 
         div.item {
             background-color: lightblue;
             border: 1px solid black;
             text-align: center;
-            padding: 10px;
         }
     </style>
 </head>
